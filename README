@@ -1,0 +1,66 @@
+ocaml-expat
+------------------------------------------
+An ocaml wrapper for the Expat XML parsing library. It allows you to 
+write XML-Parsers using the SAX method. An XML document is parsed on the 
+fly without needing to load the entire XML-Tree into memory.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libexpat0-1.95.8-2
+  ocaml-3.10.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ocaml-findlib-1.2.1-1
+
+Canonical website:
+  http://www.xs4all.nl/~mmzeeman/ocaml/
+
+Canonical download:
+  http://www.xs4all.nl/~mmzeeman/ocaml/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-expat-0.9.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-expat-0.9.1-X.cygport all
+
+This will create:
+  /usr/src/ocaml-expat-0.9.1-X-src.tar.bz2
+  /usr/src/ocaml-expat-0.9.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/expat/META
+  /usr/lib/ocaml/3.10/expat/expat.a
+  /usr/lib/ocaml/3.10/expat/expat.cma
+  /usr/lib/ocaml/3.10/expat/expat.cmi
+  /usr/lib/ocaml/3.10/expat/expat.cmxa
+  /usr/lib/ocaml/3.10/expat/expat.mli
+  /usr/lib/ocaml/3.10/expat/libmlexpat.a
+  /usr/lib/ocaml/3.10/stublibs/dllmlexpat.so
+  /usr/lib/ocaml/3.10/stublibs/dllmlexpat.so.owner
+  /usr/share/doc/ocaml-expat-0.9.1/ChangeLog
+  /usr/share/doc/ocaml-expat-0.9.1/LICENCE
+  /usr/share/doc/ocaml-expat-0.9.1/README
+
+------------------
+
+Port Notes:
+
+----- version 0.9.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
