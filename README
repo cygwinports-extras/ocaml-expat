@@ -5,15 +5,14 @@ write XML-Parsers using the SAX method. An XML document is parsed on the
 fly without needing to load the entire XML-Tree into memory.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  libexpat0-1.95.8-2
-  ocaml-3.10.0-1
+  cygwin-1.5.25-11
+  libexpat1-2.0.1-1
+  ocaml-3.10.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
   binutils-20060817-1
-  cygport-0.3.8-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
   ocaml-findlib-1.2.1-1
@@ -57,6 +56,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.1-2 -----
+Rebuilt for expat-2.0.
 
 ----- version 0.9.1-1 -----
 Initial release for Cygwin.
